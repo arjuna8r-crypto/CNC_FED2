@@ -1,4 +1,4 @@
-/* Basic reset */
+/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +9,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Navbar container */
+/* Navbar */
 .navbar {
   display: grid;
   grid-template-columns: auto 1fr auto;
@@ -44,22 +44,22 @@ body {
   color: #ff9800;
 }
 
-/* Hamburger icon */
+/* Hamburger */
 .hamburger {
-  display: flex;
+  display: none;
   flex-direction: column;
-  cursor: pointer;
   gap: 5px;
+  cursor: pointer;
 }
 
 .hamburger span {
   height: 3px;
   width: 25px;
-  background: white;
+  background: #fff;
   border-radius: 2px;
 }
 
-/* Responsive for mobile */
+/* Mobile view */
 @media (max-width: 768px) {
   .nav-links {
     display: none;
